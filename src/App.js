@@ -1,23 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
+import Chatbot from './Components/Chatbot/Chatbot';
+import Contacto from './Components/Contacto/Contacto';
+import Edad from './Components/Edad/Edad';
+import Github from './Components/GitHub/Github';
+import Linkedin from './Components/Linkedin/Linkedin';
+import Principal from './Components/Principal/Principal';
+import Project from './Components/Projects/Project';
+import Segundo from './Components/Segundo/Segundo';
+import Tercero from './Components/Tercero/Tercero';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className='primerFila'>
+        <Principal/>
+        <div className='segundaFila'>
+          <Segundo/>
+          <Tercero/>
+        </div>
+      </div>
+
+      <div className='terceraFila'>
+          <Github/>
+          <Linkedin/>
+          <Project />
+      </div>
+
+      <div className='cuartaFila'>
+          <Edad/>
+          <Edad/>
+          <Project />
+      </div>
+
+      <div className='quintaFila'>
+        <Contacto/>
+        <div className='sextaFila'>
+          <Chatbot/>
+        </div>
+      </div>
+      
+
     </div>
   );
 }

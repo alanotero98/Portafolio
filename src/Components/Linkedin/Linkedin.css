@@ -1,0 +1,48 @@
+.linkedin{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(13, 7, 70, 0.847);
+    border-radius: 25px;
+    display: flex;
+}
+
+.logo{
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    margin-top: 55px;
+    position: relative;
+    left: 15%;
+    top: 5%;
+}
+
+.link{
+    position: relative;
+    left: 82%;
+    top: 4%;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.modo-oscuro-link{
+    color: black;
+}
+
+.modo-oscuro-logo{
+    color: black;
+}
+
+.modo-oscuro-logo:hover{
+    color: rgb(92, 92, 92);
+}
+.logo:hover{
+    color: rgb(151, 151, 151);
+}
+
+.modo-oscuro-link:hover{
+    color: rgb(97, 96, 96);
+}
+
+.link:hover{
+    color: rgb(204, 204, 204);
+}
+

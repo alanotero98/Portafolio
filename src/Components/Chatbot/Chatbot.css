@@ -1,0 +1,52 @@
+.chatbot {
+    text-align: center; /* Centra los elementos dentro del contenedor */
+    background-color: rgb(93, 32, 150);
+    border-radius: 10%;
+}
+
+.tituloChat{
+    font-size: 18px;
+    color: aliceblue;
+    font-family:'Roboto', sans-serif;
+    margin-top: 10px;
+}
+  
+  .fotoMia {
+    width: 110px; /* Ajusta el ancho de la imagen según tus necesidades */
+    margin-top: 20px; /* Espacio superior para separar la imagen del borde superior */
+    border-radius: 50%;
+}
+  
+  .divInput {
+    margin-top: 210px; /* Espacio superior para separar el input del borde superior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .inputChatbot {
+    width: 80%; /* Ajusta el ancho del input según tus necesidades */
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 20px; /* Esquinas redondeadas del input */
+    margin-top: 10px; /* Espacio superior para separar el input del texto superior */
+    font-size: 16px; /* Tamaño del texto del input */
+  }
+
+  .submitButton{
+    position: relative;
+    bottom: 37px;
+    left: 100px;
+    height: 33px;
+    width: 40px;
+    font-size: 23px;
+    border-radius: 10px;
+  
+  }
+  
+  .icon{
+    position: relative;
+    right: 11px;
+    bottom: 6px;
+  }

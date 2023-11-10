@@ -1,0 +1,17 @@
+.github{
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.733)), url('./giphy.gif');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el elemento */
+    background-position: center;
+    border-radius: 15%;
+}
+
+.logoGithub{
+    position: relative;
+    top:25%;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+}
+
+.logoGithub:hover{
+    color: rgb(144, 144, 144);
+}

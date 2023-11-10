@@ -1,0 +1,50 @@
+.segundo{
+    background-color: rgb(93, 32, 150);
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 100% 100%;
+    
+}
+.tituloIdioma{
+    font-size: 45px;
+    font-family:'Roboto', sans-serif;
+    color: rgb(93, 32, 150);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    border: none;
+}
+
+.p{
+    position: relative;
+    bottom: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+  
+  .modo-oscuro-button {
+    color: rgb(93, 32, 150);
+    background-color: #000000;
+  }
+  .modo-oscuro-texto {
+    color: #000000;
+  }
+
+  .modo-oscuro-texto.letraSelected{
+    color: #000000;
+  }
+
+  .letraSelected{
+    color: rgb(164, 164, 164);
+  }
+
+  .modo-oscuro-letraSelected{
+    color: rgba(171, 170, 170, 0.847)
+  }

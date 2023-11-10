@@ -1,0 +1,27 @@
+.project{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(8, 8, 173);
+    border-radius: 25px;
+    background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.729)), url('./press-any-key-any-key.gif');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el elemento */
+    background-position: center;
+}
+
+.tituloProject{
+    font-family:'Roboto', sans-serif;
+    font-size: 35px;
+    color: rgb(250, 250, 250);
+    margin: 25px;
+    display: block; /* Garantiza que los elementos sean bloques y aparezcan uno debajo del otro */
+    text-align: left;
+}
+.parrafoProject {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 25px;
+    padding: 0;
+    display: block; /* Garantiza que los elementos sean bloques y aparezcan uno debajo del otro */
+    text-align: left;
+}
